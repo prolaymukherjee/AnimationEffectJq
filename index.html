@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is javascript fundamantal</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="js/index.js"></script>
+	</head>
+
+	<body>
+	<section class="content"
+		<div class="header">
+			<h2>Jquery tutrial fundamantal</h2>
+		</div>
+		
+	<div class="main">
+	
+	    <button id="animation">Start Animation</button>
+	    <button id="animation1">Animation Stop</button>
+		
+	
+
+		<div class="para">
+			<div class="inside">
+				
+			</div>
+		</div>
+		
+		
+		<script>
+			$(document).ready(function(){
+				$("#animation").click(function(){
+					$(".inside").animate({
+						left:'300px'
+					},5000);
+				});
+				
+				$("#animation1").click(function(){
+					$(".inside").stop();
+				});
+				
+				
+
+			});
+			
+			
+			
+		</script>
+		
+		
+	</div>
+		<div class="footer">
+			<h2>javascript live traing</h2>
+		</div>
+		</section>
+	</body>
+	
+</html>
